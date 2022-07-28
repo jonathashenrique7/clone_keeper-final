@@ -1,0 +1,95 @@
+* > body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: white;
+}
+
+.header {
+  color: rgb(27, 22, 56);
+  background-color: rgb(231, 223, 213);
+  width: 100%;
+  text-align: center;
+  font-family: 'Droid Sans';
+  padding: 8px;
+  transition: 2s;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header:hover {  transition: 3s; }
+
+.container { display: inline-block; }
+
+.area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+#input-form {
+  margin: 5px;
+  border-radius: 5px;
+  width: 282px;
+  height: 25px;  
+}
+
+#area-form {
+  margin: 5px;
+  border-radius: 5px;
+  width: 282px;
+  height: 70px;
+}
+
+#btn { 
+  border-radius: 35px; padding: 4px; color: rgb(255, 255, 255); 
+  background-color: rgb(64, 70, 66); transition: 2s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#btn:hover { background-color: goldenrod; color:rgb(17, 3, 34); transition: 1s; }
+
+#btn-del { 
+  border-radius: 35px; padding: 4px; color: rgb(255, 255, 255); 
+  background-color: rgb(64, 70, 66); transition: 2s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#btn-del:hover { background-color: goldenrod; color:rgb(17, 3, 34); transition: 1s; }
+
+.noteStyle {
+  color: rgb(27, 22, 56);
+  background-color: rgb(231, 223, 213);
+  width: 112px;
+  margin: 10px;
+  padding: 18px;
+  border-radius: 10px;
+  transition: 1.5s;
+}
+
+.noteStyle:hover {
+  color: rgb(235, 234, 241);
+  background-color: rgb(126, 117, 88);
+  width: 114px;
+  transition: 1s;
+  margin: 10px;
+  padding: 18px;
+  border-radius: 8px;
+}
+
+.mainFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerStyle {
+  color: rgb(17, 3, 34);
+  font-size: 18px;
+  font-family: sans-serif;
+  position: absolute;
+  bottom: 0px;
+}
+
